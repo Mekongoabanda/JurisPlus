@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JurisPlus</string>
+    <string name="title_activity_sign_in">SignIn</string>
+</resources>

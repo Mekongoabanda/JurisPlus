@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="5dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@color/JauneMTN"
+        android:id="@+id/circle_image">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/affaire_icon"
+                android:layout_centerInParent="true"></ImageView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+            android:id="@+id/code_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Affaire N°..."
+            android:textColor="@color/Black"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+            <TextView
+                android:id="@+id/code_droit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Droit N°..."
+                android:textColor="@color/Black"
+                android:textSize="16dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/juridiction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Juridiction : "
+                android:textColor="@color/Black"
+                android:textSize="16dp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_affaire"
+        android:icon="@drawable/affaire_icon"
+        android:iconTint="@color/White"
+        android:title="Affaire/Case"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/nav_intervenants"
+        android:icon="@drawable/speaker"
+        android:title="intervenants/speakers"
+        android:orderInCategory="2"/>
+
+
+</menu>

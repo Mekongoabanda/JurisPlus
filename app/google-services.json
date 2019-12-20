@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "408637775820",
+    "firebase_url": "https://jurisplus-92b7b.firebaseio.com",
+    "project_id": "jurisplus-92b7b",
+    "storage_bucket": "jurisplus-92b7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408637775820:android:088f0e0996765c4cd94769",
+        "android_client_info": {
+          "package_name": "corine.com.jurisplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408637775820-c9jh0rkcg8o0avghmi82s3oa2aep4ev2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "corine.com.jurisplus",
+            "certificate_hash": "605eef2a578db434906cf35a399a57be83634805"
+          }
+        },
+        {
+          "client_id": "408637775820-5bv174dbndtqg1n249k6l7ojrfd6r894.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_e-dKgt2fnSJSkV00NGwA4eXG8RQWt-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408637775820-5bv174dbndtqg1n249k6l7ojrfd6r894.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
